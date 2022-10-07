@@ -1,9 +1,10 @@
-import 
-
 export default function About(){
   return(
-    <>
-      about area    
-    </>
+    <div className="about-container">
+      <nav>
+      </nav>
+      <section>
+      </section>
+    </div>
   )
 }
