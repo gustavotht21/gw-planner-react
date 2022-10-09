@@ -2,7 +2,6 @@
 ![tela de login](https://user-images.githubusercontent.com/90472705/194762383-30e8744b-f34a-444c-a230-0860608fbe7c.png)
 ![tela de tarefas](https://user-images.githubusercontent.com/90472705/194762076-374938e2-66e9-47dd-a09e-d857a21f640e.png)
 
-
 ![Badge versão](http://img.shields.io/static/v1?label=VERSÃO&message=%201.0&color=GREEN&style=for-the-badge)
 
 O nosso curso integrou as matérias técnicas desse semestre para formar um projeto geral. O objetivo desse projeto é desenvolver um planner de tarefas, utilizando como linguagem principal o Python.
