@@ -1,4 +1,4 @@
-# Planner do proejeto integrador
+# Planner - projeto integrador
 ![tela de tarefas](https://user-images.githubusercontent.com/90472705/194756541-4a9855b2-3f06-42db-aa66-d1f0bb597363.png)
 
 ![Badge versão](http://img.shields.io/static/v1?label=VERSÃO&message=%201.0&color=GREEN&style=for-the-badge)
