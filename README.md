@@ -1,5 +1,5 @@
 # Planner - Projeto integrador
-![tela de login](https://user-images.githubusercontent.com/90472705/194761802-2b42d88b-e269-438c-9869-9fc714d83966.png)
+![tela de login](https://user-images.githubusercontent.com/90472705/194762383-30e8744b-f34a-444c-a230-0860608fbe7c.png)
 ![tela de tarefas](https://user-images.githubusercontent.com/90472705/194762076-374938e2-66e9-47dd-a09e-d857a21f640e.png)
 
 
