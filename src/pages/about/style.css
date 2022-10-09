@@ -1,11 +1,33 @@
-about-container{
+.about-container{
   width: 100vw;
   height: 100vh;
   
   display: flex;
-  justify-content: center;
-  align-items: center;
+  
   flex-direction: column;
+}
 
-  background: red;
+.about-section{
+  width: 100vw;
+  height: 70vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-text{
+  position: absolute;
+  width: 254px;
+  height: 152px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: -0.18px;
+  
+  color: #0C4A6E;
 }
