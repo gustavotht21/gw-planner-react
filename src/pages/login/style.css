@@ -11,19 +11,6 @@
     margin: 0;
   }
   
-  .header-text {
-    width: 100%;
-    padding: 0.625rem;
-    padding-top: 0.625rem;
-    background-color: #0C4A6E;
-    color: #F0F9FF;
-    font-family: 'Inter', sans-serif;
-  }
-
-  .header-paragraph {
-    padding-top: 0.625rem;
-  }
-
   .login-container {
     display: flex; 
     flex-direction: column;
@@ -53,7 +40,4 @@
     font-weight: 700;
     margin: 10px auto;
   }
-
-  
-
 }
