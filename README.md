@@ -38,5 +38,5 @@ Após abrir o projeto, você pode iniciá-lo com o IDE de sua preferência, que 
 
 ## Autor
 
-| [<img src="https://avatars.githubusercontent.com/u/90472705?v=4" width=115><br><sub>Wata Negreiros Monteiro</sub>](https://github.com/WataNegreirosMonteiro) |  [<img src="https://avatars.githubusercontent.com/u/113564851?v=4" width=115><br><sub>Gustavo Casagrande Borges</sub>](https:/github.com/gustavotht21) |  
+| [<img src="https://avatars.githubusercontent.com/u/90472705?v=4" width=115><br><sub>Wata Negreiros Monteiro</sub>](https://github.com/WataNegreirosMonteiro) |  [<img src="https://avatars.githubusercontent.com/u/113564851?v=4" width=115><br><sub>Gustavo Casagrande Borges</sub>](https://github.com/gustavotht21) |  
 | :---: | :---: | 
