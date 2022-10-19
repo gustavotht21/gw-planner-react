@@ -29,7 +29,11 @@ export default function Home(){
 
   return(
     <>
-        <Navbar />
+        <Navbar 
+        icon="←" 
+        title="Planejamento Semanal" 
+        description="Visualize as suas tarefas da semana"
+        route="/"/>
         <div className="container">
             <AddTask handleTaskAddition={handleTaskAddition} />
             <Tasks tasks={tasks} />
