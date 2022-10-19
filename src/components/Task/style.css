@@ -1,0 +1,22 @@
+.task-container {
+    background-color: #0C4A6E;
+    margin: 8px auto;
+    padding: 15px 20px;
+    display: flex;
+    border-radius: 5px;
+    justify-content: space-between;
+    color: #F0F9FF;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    width: 75%;
+}
+
+.task-title {
+    cursor: pointer;
+}
+
+.buttons-container {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
