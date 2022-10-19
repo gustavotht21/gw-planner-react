@@ -49,3 +49,15 @@ body {
   color: #F0F9FF;
   visited: none;
 }
+.footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-link {
+  color: #0EA5E9;
+  visited: none;
+  font-family: 'Inter', sans-serif;
+  position: absolute;
+  bottom: 30px;
+}

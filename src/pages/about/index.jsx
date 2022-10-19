@@ -9,7 +9,7 @@ export default function About(){
         icon="←" 
         title="Sobre" 
         description="Informações sobre o projeto e aplicação"
-        route="/entrar"
+        route="/"
       />
       <section className="about-section">
         <p className="about-text">

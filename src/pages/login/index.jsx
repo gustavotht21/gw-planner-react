@@ -25,8 +25,8 @@ export default function Login(){
 
 
 
-            <footer>
-                <Link to="/sobre">
+            <footer className="footer-container">
+                <Link to="/sobre" className="footer-link">
                     <p>Sobre</p>
                 </Link>
             </footer>
