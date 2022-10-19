@@ -16,7 +16,11 @@ export default function Login(){
             <div className="login-container">
               {/* Colocar o botão de matrícula e entrar como componentes aqui */}
               <input type='text' className="input-registration" placeholder="Matrícula"></input>
-              <button className="login-button">Entrar</button>
+              <button className="login-button">
+                <a className="button-link" href="https://planner-cacicada.watenhagugu.repl.co/inicio">
+                  Entrar
+                </a>
+              </button>
             </div>
 
 
