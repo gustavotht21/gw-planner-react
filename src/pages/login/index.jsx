@@ -8,10 +8,10 @@ export default function Login(){
     return(
         <>
             <Navbar
-                icon="0"
+                icon="husdjn"
                 title="Identificação"
                 description="Identifique-se para acessar informações pessoais"
-                route="/entrar"
+                route="/sobre"
             />
             <div className="login-container">
               {/* Colocar o botão de matrícula e entrar como componentes aqui */}
@@ -23,13 +23,6 @@ export default function Login(){
               </button>
             </div>
 
-
-
-            <footer className="footer-container">
-                <Link to="/sobre" className="footer-link">
-                    <p>Sobre</p>
-                </Link>
-            </footer>
         </>
     )
 }
