@@ -2,8 +2,9 @@
 import Navbar from "../../components/Navbar";
 import Tasks from "../../components/Tasks";
 import {useState} from "react";
-import AddTask from "../../components/AddTask/index.jsx";
+import AddTask from "../../components/AddTask";
 
+import "./style.css"
 export default function Home(){
     const [tasks, setTasks] = useState([
         {
@@ -28,7 +29,7 @@ export default function Home(){
     };
 
   return(
-    <>
+    <div>
         <Navbar 
         icon="←" 
         title="Planejamento Semanal" 
@@ -36,8 +37,10 @@ export default function Home(){
         route="/"/>
         <div className="container">
             <AddTask handleTaskAddition={handleTaskAddition} />
-            <Tasks tasks={tasks} />
+            <div className="tasks-background">
+              <Tasks tasks={tasks} />
+            </div>
         </div>
-    </>
+    </div>
   )
 }
