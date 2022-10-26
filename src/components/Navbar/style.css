@@ -10,13 +10,19 @@
 }
 
 .navbar-content{
+  width: 100vw;
+  margin-right: 15px;
   margin-left: 15px;
-}
-
-.navbar-butitle{
+  
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: center;
+}
+
+.navbar-text{
+  display: flex;
+  flex-direction: column;
 
   gap: 5px;
 }
@@ -32,8 +38,8 @@
 }
 
 .navbar-button{
-  width: 35px;
-  height: 35px;
+  width: 24px;
+  height: 24px;
   
   background: transparent;
   border: none;
