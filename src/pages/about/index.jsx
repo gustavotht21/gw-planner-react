@@ -1,12 +1,13 @@
 import "./style.css"
 
 import Navbar from "../../components/Navbar"
+import BackspaceIcon from '../../assets/icons/Backspace.svg'
 
 export default function About(){
   return(
     <div className="about-container">
       <Navbar 
-        icon="←" 
+        icon={<img src={BackspaceIcon}/>} 
         title="Sobre" 
         description="Informações sobre o projeto e aplicação"
         route="/"

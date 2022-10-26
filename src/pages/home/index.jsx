@@ -3,6 +3,7 @@ import Navbar from "../../components/Navbar";
 import Tasks from "../../components/Tasks";
 import {useState} from "react";
 import AddTask from "../../components/AddTask";
+import SignoutIcon from '../../assets/icons/SignOut.svg';
 
 import "./style.css"
 export default function Home(){
@@ -31,7 +32,7 @@ export default function Home(){
   return(
     <div>
         <Navbar 
-        icon="←" 
+        icon={<img src={SignoutIcon}/>}
         title="Planejamento Semanal" 
         description="Visualize as suas tarefas da semana"
         route="/"/>
