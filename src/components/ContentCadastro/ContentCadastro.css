@@ -12,13 +12,13 @@ form div {
     flex-direction: column;
 }
 
-form #login-label-email, #login-label-password {
+form #cadastro-label-email, #cadastro-label-senha, #cadastro-label-senhaAgain {
     color: #A0ABBD;
     font-size: 12px;
-    margin-top: 40px;
+    margin-top: 10px;
 }
 
-form #login-email, #login-password {
+form #cadastro-email, #cadastro-password, #cadastro-passwordAgain {
     max-width: 376px;
     height: 40px;
     border: 1px solid #A0ABBD;
@@ -30,20 +30,19 @@ form input::placeholder {
     padding-left: 5px;
 }
 
-form #login-email:focus, #login-password:focus {
+form #cadastro-email:focus, #cadastro-password:focus, #cadastro-passwordAgain:focus {
     box-shadow: 0 0 0 0;
     outline: 0;
     border: 1px solid #4284F2;
 }
 
-form #buttons-login {
+form #buttons-cadastro {
     display: flex;
     flex-direction: row;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
-
-form #buttons-login #login-button-conclude {
+form #buttons-cadastro #cadastro-button-conclude {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 16px;
@@ -53,14 +52,15 @@ form #buttons-login #login-button-conclude {
     background: #4284F2;
     border: 1px solid #4284F2;
     border-radius: 5px;
+    margin-top: 20px;
 }
 
-form #buttons-login #login-button-conclude:hover {
+form #buttons-cadastro button:hover {
     background: #1D4ED8;
     transition-duration: 1s;
 }
 
-form #buttons-login #login-button-back {
+form #buttons-cadastro #cadastro-button-back {
     border: 2px solid #4284F2;
     background: #FFFFFF;
     height: 45px;
@@ -77,9 +77,10 @@ form #buttons-login #login-button-back {
 
     transition: 1s;
     text-decoration: none;
+    margin-top: 16px;
 }
 
-form #buttons-login #login-button-back:hover {
+form #buttons-cadastro #cadastro-button-back:hover {
     background: #E2E8F0;
     transition-duration: 1s;
 }
