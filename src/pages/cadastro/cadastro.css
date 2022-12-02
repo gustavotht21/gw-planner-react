@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-body {
+.body-cadastro {
     background: linear-gradient(113.96deg, #3776DF 0%, #749FE4 100%);
     width: 100vw;
     height: 100vh;
@@ -10,4 +10,5 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }

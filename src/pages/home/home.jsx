@@ -1,5 +1,5 @@
 
-import Navbar from "../../components/Navbar";
+import Navbar from "../../components/Navbar/NavBar.jsx";
 import Tasks from "../../components/Tasks";
 import {useState} from "react";
 import AddTask from "../../components/AddTask/AddTask.jsx";
@@ -32,7 +32,7 @@ export default function Home(){
   return(
     <div>
         <Navbar 
-        icon={<img src={SignoutIcon}/>}
+        icon={<img src={SignoutIcon} alt={"Ícone"}/>}
         title="Planejamento Semanal" 
         description="Visualize as suas tarefas da semana"
         route="/"/>

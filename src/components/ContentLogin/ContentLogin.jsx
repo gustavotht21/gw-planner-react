@@ -1,6 +1,7 @@
 import React from 'react'
 
 import "./ContentLogin.css"
+import {Link} from "react-router-dom";
 
 export default function ContentLogin() {
     return (
@@ -16,7 +17,9 @@ export default function ContentLogin() {
                 </div>
                 <div id={"buttons-login"}>
                     <button id={"login-button-conclude"} type={"submit"}>Entrar</button>
-                    <a id={"login-button-back"} href="/cadastro">Cadastre-se</a>
+                    <Link to={"/cadastro"}>
+                        <button id={"login-button-back"}>Cadastre-se</button>
+                    </Link>
                 </div>
             </form>
         </>

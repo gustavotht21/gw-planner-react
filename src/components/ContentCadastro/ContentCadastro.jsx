@@ -1,6 +1,7 @@
 import React from 'react'
 
 import "./ContentCadastro.css"
+import {Link} from "react-router-dom";
 
 export default function ContentCadastro() {
     return (
@@ -20,7 +21,9 @@ export default function ContentCadastro() {
                 </div>
                 <div id={"buttons-cadastro"}>
                     <button id={"cadastro-button-conclude"} type={"submit"}>Finalizar cadastro</button>
-                    <a id={"cadastro-button-back"} href="/login">Login</a>
+                    <Link to={"/login"}>
+                        <button id={"cadastro-button-back"}>Login</button>
+                    </Link>
                 </div>
             </form>
         </>
