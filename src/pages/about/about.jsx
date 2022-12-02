@@ -1,4 +1,4 @@
-import "./style.css"
+import "./about.css"
 
 import Navbar from "../../components/Navbar"
 import BackspaceIcon from '../../assets/icons/Backspace.svg'

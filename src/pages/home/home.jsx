@@ -2,10 +2,10 @@
 import Navbar from "../../components/Navbar";
 import Tasks from "../../components/Tasks";
 import {useState} from "react";
-import AddTask from "../../components/AddTask";
+import AddTask from "../../components/AddTask/AddTask.jsx";
 import SignoutIcon from '../../assets/icons/SignOut.svg';
 
-import "./style.css"
+import "./home.css"
 export default function Home(){
     const [tasks, setTasks] = useState([
         {

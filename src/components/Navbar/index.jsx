@@ -1,9 +1,9 @@
 import "./style.css"
 
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
-import Login from '../../pages/login'
-import About from '../../pages/about'
-import Home from '../../pages/home'
+import Login from '../../pages/login/login.jsx'
+import About from '../../pages/about/about.jsx'
+import Home from '../../pages/home/home.jsx'
 
 export default function Navbar({icon, title, description, route}){
   return(
