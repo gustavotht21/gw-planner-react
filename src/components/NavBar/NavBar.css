@@ -1,0 +1,23 @@
+.navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    flex-direction: row;
+}
+
+.navbar-container .items {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.navbar-container .items p {
+    transition: 2s;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.navbar-container .items p:hover {
+    color: #0A2042;
+    background-color: #BFDBFE;
+}

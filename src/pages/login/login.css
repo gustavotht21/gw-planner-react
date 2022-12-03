@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+}
+
+.body-login {
+
+  background: linear-gradient(113.96deg, #3776DF 0%, #749FE4 100%);
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
