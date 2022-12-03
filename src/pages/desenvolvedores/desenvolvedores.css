@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.body-desenvolvedores {
+    background: linear-gradient(113.96deg, #3776DF 0%, #749FE4 100%);
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    max-width: 90%;
+    width: 60%;
+    height: 60%;
+    background-color: #0A2042;
+    margin: 6% auto 0;
+    display: flex;
+    border-radius: 20px;
+
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.container a {
+    color: #BFDBFE;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.container .gustavo, .wata {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
