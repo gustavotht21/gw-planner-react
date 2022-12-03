@@ -18,5 +18,6 @@
 }
 
 .navbar-container .items p:hover {
+    color: #0A2042;
     background-color: #BFDBFE;
 }
