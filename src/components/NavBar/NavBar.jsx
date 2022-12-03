@@ -21,7 +21,7 @@ export default function NavBar() {
                 <Link to={"/cadastro"} >
                     <p>Cadastre-se</p>
                 </Link>
-                <Link to={"/"} >
+                <Link to={"/desenvolvedores"} >
                     <p>Desenvolvedores</p>
                 </Link>
             </div>
